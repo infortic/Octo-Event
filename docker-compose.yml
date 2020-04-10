@@ -2,7 +2,7 @@ version: "3"
 services:
   db:
     image: postgres:9.6
-    container_name: "banco de dados"
+    container_name: "bancoDeDados"
     networks:
       backend:
          ipv4_address: 10.9.0.5
